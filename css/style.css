@@ -29,7 +29,7 @@ h1{
     background-color: #000;
     display: flex;
     justify-content: space-around
-    
+   
 
  }
     
@@ -44,6 +44,7 @@ header{
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 10;
 
 }
 
@@ -87,7 +88,7 @@ h3{
     font-weight: 900;
 }
  footer img{
-    width: 100px;
+    width: 75px;
    
  }
  .div{
@@ -115,12 +116,7 @@ h3{
     background-color: rgb(230, 146, 205);
  }
 
- .wspp{
-    position: sticky;
-    top: 300px;
-    bottom: 0px;
- }
-     
+
 
 
 /*NOSOTROS*/
@@ -195,14 +191,32 @@ h3{
 
 
 }
+/*CAROUSEL*/
+.carousel-inner{
+    width: 75%;
 
+}
 
+.carouselExampleCaptions{
+    display: flex;
+    justify-content: center;
+}
 
+/*CARDS*/
+.card-title{
+    color: rgb(230, 146, 205);
+    background-color: #000;
+}
 
-
-
-
-
+.btn{
+   color: #000;
+   background-color: rgb(230, 146, 205);
+}
+   
+.card-body{
+    background-color: #000;
+    
+}
 
 /*CONTACTOS*/
 
@@ -211,13 +225,20 @@ main{
     
 }
 
-.imguno, .imgdos, .imgtres{
-    width: 30%;
+
+/*.colum{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+    width: 100%;
     
+} */
+.colum{
+    padding: 20px 0px;
+    display: flex;
+    justify-content:space-evenly
 }
+
+
 
 
 
@@ -238,6 +259,8 @@ main{
    .div {
     display: block;
    }
+
+   
    /*NOSOTROS*/
    .contenedor-grid{
     grid-template-areas: 
