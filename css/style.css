@@ -100,7 +100,7 @@ h3{
 
  .mapa{
     background-color: #000;
-    display: flex;
+    display: grid;
     justify-content: center;
  }
 
